@@ -30,11 +30,6 @@ public class Main {
 
         }
 
-/**
-
- * Определяем оператор и присваиваем его в поле класса
-
- */
 
         if (line.contains("+")) {
 
@@ -54,11 +49,7 @@ public class Main {
 
         }
 
-/**
 
- * Разделяем строку на переменные из левой части, правой
-
- */
 
         firstElement = line.substring(0, line.indexOf(operand)).trim().replaceAll("\"", "");
 
